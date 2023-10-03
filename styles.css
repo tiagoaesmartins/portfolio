@@ -177,6 +177,16 @@ footer p {
 
 /*Contact*/
 
+#main-contact {
+    padding-top: 190px;
+    max-width: 500px;
+    margin-left: 200px;
+}
+
+#contact {
+    max-width: 600px;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
