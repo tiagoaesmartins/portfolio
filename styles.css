@@ -1,0 +1,190 @@
+/*General*/
+* {
+    font-size: 16px;
+    font-family: 'Gabarito', sans-serif, cursive;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    text-align: justify;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.95rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*Header*/
+header {
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 12px;
+    color: rgb(238, 238, 238);
+    background-color: black;
+    width: 100%;
+    padding: 0 50px;
+    margin-right: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.navigation {
+    margin: 0 20px;
+    color: rgb(238, 238, 238);
+    font-size: 1.15rem;
+}
+
+#dark-mode {
+    margin-right: 90px;
+}
+
+#dark-mode button {
+    background-color: black;
+    color:rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
+    padding: 15px 20px;
+}
+
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*About Me*/
+
+#about-me {
+    padding-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+#structure p {
+    font-size: 1.25rem;
+    margin-right: 25px;
+    max-width: 600px;
+}
+
+#structure img {
+    max-width: 600px;
+    margin-top: 80px;
+}
+
+#structure .text {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Projects*/
+
+#projects {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj-structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+}
+
+.project {
+    height: 400px;
+    overflow: hidden;
+}
+
+.project-img {
+    max-width: 600px;
+}
+
+.project-description {
+    max-width: 600px;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/*Contact*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
