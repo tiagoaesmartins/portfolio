@@ -137,6 +137,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 #proj-structure {
@@ -160,6 +161,28 @@ main {
     max-width: 600px;
 }
 
+/*Contact*/
+
+#main-contact {
+    padding-top: 190px;
+    max-width: 500px;
+    margin-left: 200px;
+    margin-bottom: 500px;
+}
+
+#contact {
+    max-width: 600px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
 /*Footer*/
 
 footer {
@@ -175,26 +198,7 @@ footer p {
     height: 2.5rem;
 }
 
-/*Contact*/
 
-#main-contact {
-    padding-top: 190px;
-    max-width: 500px;
-    margin-left: 200px;
-}
-
-#contact {
-    max-width: 600px;
-}
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
 
 #footer {
     position: absolute;
