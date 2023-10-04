@@ -4,8 +4,6 @@ const body = document.body;
 let checker = true;
 
 const toggleDark = () => {
-
-
     if(checker == true) {
         body.classList.add("dark-mode");
         checker = false;
