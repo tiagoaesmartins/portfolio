@@ -330,6 +330,7 @@ footer p {
         align-items: flex-start;
         max-width: 1200px;
         margin-bottom:150px;
+        padding-top: 150px;
     }
 
     #structure-img {
@@ -361,6 +362,7 @@ footer p {
     }
 
     #structure {
+        padding-top: 150px;
         margin-bottom: 150px;
     }
 
