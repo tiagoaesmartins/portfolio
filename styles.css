@@ -332,6 +332,7 @@ footer p {
     }
 
     #structure-img {
+        display: none;
         max-width: 600px;
         margin-top: 50px;
         max-height: 400px;
