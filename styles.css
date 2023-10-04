@@ -4,6 +4,9 @@
     font-family: 'Gabarito', sans-serif, cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     display: flex;
@@ -100,6 +103,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 
@@ -186,9 +190,15 @@ main {
 /*Footer*/
 
 footer {
-    position: relative;
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding-bottom: 5rem;
     text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: black;
 }
 
 footer p {
