@@ -329,6 +329,7 @@ footer p {
         justify-content: center;
         align-items: flex-start;
         max-width: 1200px;
+        margin-bottom:150px;
     }
 
     #structure-img {
@@ -357,6 +358,10 @@ footer p {
 
     * {
         font-size: 8px;
+    }
+
+    #structure {
+        margin-bottom: 150px;
     }
 
     #structure-img {
