@@ -324,7 +324,11 @@ footer p {
 
     #structure {
         flex-direction: column;
-        max-width: 850px;
+        max-width: 500px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     #structure img {
